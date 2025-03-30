@@ -10,6 +10,7 @@ app.use(cors({origin: "*"}));
 
 // Middleware
 // app.use(cors({ origin: 'http://localhost:3000' }));
+
 app.use(express.json());
 
 // MongoDB Connection
